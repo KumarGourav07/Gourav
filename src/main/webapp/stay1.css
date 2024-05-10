@@ -1,0 +1,332 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+ }
+ 
+ header{
+     z-index:999;
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 200px;
+     transition: 0.5s ease;
+ }
+ body{
+  /* background-color: #162938; */
+  background-color: #212121;
+    font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+ }
+ .brand{
+color: #fff;
+  font-size: 2.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  left: -52px;
+
+ }
+ .navigation{
+     position: relative;
+ }
+ .navigation-items a{
+     position: relative;
+     color:#fff;
+     font-size: 1em;
+     font-weight: 500;
+     text-decoration: none;
+     margin-left: 30px;
+     transition: 0.3s ease;
+ }
+
+ .navigation-items a:before{ 
+     content:'';
+     position: absolute;
+     background: #fff;
+     width: 0;
+     height:3px;
+     bottom:0;
+     left:0;
+     transition:0.3s ease;     
+ }
+ 
+ .navigation-items a:hover:before{
+     width: 100%;
+
+ }
+   
+.navigation-items form{
+   display:inline;
+ }
+
+ .navigation-items button{
+     position: relative;
+     left:12px;
+     background: transparent;
+     border: 2px solid white;
+     border-radius:12px;
+     outline: none;
+     padding: 11px 35px; 
+     color:#fff;
+     font-size: 1.1em;
+     font-weight: 500;
+     outline: none;
+     cursor: pointer;
+     transition: .5s
+ }
+
+ .navigation-items button:hover{
+    background: #fff;
+    color:#162938;
+ }
+
+/* ----------------------------------------------------------------------------------------------------- */
+.section {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 18px;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  max-width: 31%;
+  min-height: 89vh;
+  position:relative;
+  top:8vh;
+}
+
+ #meal-section {
+    background: url('images/s8.jpg') center/cover no-repeat;
+}
+/*#search-section {
+    background: url('image/f5.jpg') center/cover no-repeat; 
+}
+
+#display-section {
+    background: url('image/f3.jpg') center/cover no-repeat; 
+} */
+
+label {
+    position: relative;
+    display: inline;
+    font-size: 21px;
+    font-weight: 900;
+    font-family: vegan-style;
+    margin-bottom: 10px;
+    color: black;
+    left: 9px;
+    top: 7px;
+}
+#breakfast{
+    position: relative;
+    top: 54px;
+    right: 143px;
+}
+#lunch{
+    position: relative;
+    top: 96px;
+    right: 219px;
+}
+#dinner{
+    position: relative;
+    top: 141px;
+    right: 312px;
+}
+#Bname{
+    position: relative;
+    top: 55px;
+    left: -138px;
+}
+#Lname{
+    position: relative;
+    top: 97px;
+    left: -214px;
+}
+
+#Dname{
+    position: relative;
+    top: 117px;
+    left: 42px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+#place-details {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Styling for selected result */
+li.active {
+  background-color: #3399ff;
+  color: #fff;
+}
+
+.middle-section {
+        min-height: 100px; /* Set a minimum height for the middle section */
+        box-shadow: 0 0 9px white;
+    }
+ select {
+  width: 47%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -41px;
+  left: 213px;
+  background-color:#212121 ;
+  color: white;
+  
+    }    
+    .image{
+      height: 110vh;
+  width: 100vw;
+  position: absolute;
+  margin: -16px;
+    }
+
+    #search-section{
+        position: relative;
+        max-width: 65%;
+        box-shadow: 0 0 9px white;
+    }
+ 
+    .justinfo {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 18px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center; /* Horizontally center the text */
+  text-align: center; /* Center the text within the element */
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 9px white;
+}
+
+.data-container {
+    box-shadow: 0 0 13px white;
+    background-color: #212121;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 34px;
+    padding: 10px;
+    margin: 10px;
+    height: 177px;
+}
+
+.shopname {
+  font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 287px;
+    top: 3px;
+}
+
+ratings, opens, speciality {
+  font-size: 16px;
+}
+
+p.ratings{
+	font-family: georgia;
+    left: 201px;
+    position: relative;
+    top: 29px;
+    font-size: 19px;
+}
+
+p.opens{
+	font-family: georgia;
+    font-size: 19px;
+    position: relative;
+    left: 537px;
+}
+
+p.speciality{
+	font-family: georgia;
+    font-size: 18px;
+    left: 200px;
+    position: relative;
+    top: 34px;
+}
+
+button.direction-button{
+	order: 1px solid white;
+    border-radius: 17px;
+    padding: 14px;
+    top: -112px;
+    position: relative;
+    left: 638px;
+    font-family: georgia;
+}
+
+.direction-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.restaurant-image {
+  bottom: 86px;
+    left: -92px;
+    position: relative;
+    object-fit: cover;
+    width: 153px;
+    height: 135px;
+    border-radius: 50%;
+    background: #007bff;
+    margin-right: 10px;
+    overflow: hidden;
+}
