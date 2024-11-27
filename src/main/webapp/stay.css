@@ -70,7 +70,7 @@ color: #fff;
 
  .navigation-items button{
      position: relative;
-     left:12px;
+     left:369px;
      background: transparent;
      border: 2px solid white;
      border-radius:12px;
@@ -81,7 +81,8 @@ color: #fff;
      font-weight: 500;
      outline: none;
      cursor: pointer;
-     transition: .5s
+     transition: .5s;
+     top:-35px;
  }
 
  .navigation-items button:hover{

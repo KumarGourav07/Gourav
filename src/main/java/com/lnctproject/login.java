@@ -32,7 +32,7 @@ public class login extends HttpServlet {
 		HttpSession session=request.getSession();
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/projectx","root","Aexam22@");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ Newcomer_Navigator","root","Tanmay@2001");
 			String query ="select * from credentials where email=?";
 			PreparedStatement pstmt=con.prepareStatement(query);
 			pstmt.setString(1,loginemail);

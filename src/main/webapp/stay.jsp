@@ -5,13 +5,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Newcomer Navigator</title>
   <link rel="stylesheet" href="stay1.css">
 </head>
 <body >
   <img  class="image" src="images/s14.jpg" alt="cartoon image">
   <header>
-    <a  class="brand" id="ko">HI BHOPAL</a>
+    <a  class="brand" id="ko">Newcomer Navigator</a>
     <div class="menu-btn"></div>
     <div class="navigation">
         <div class="navigation-items">

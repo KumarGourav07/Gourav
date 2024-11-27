@@ -24,7 +24,7 @@ public class registration extends HttpServlet {
 		RequestDispatcher rd=null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/projectx","root","Aexam22@");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Newcomer_Navigator","root","Tanmay@2001");
 			String query="insert into  credentials values(?,?,?)";
 			PreparedStatement pstmt =con.prepareStatement(query);
 			pstmt.setString(1,username);

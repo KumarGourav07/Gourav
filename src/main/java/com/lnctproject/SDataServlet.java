@@ -28,13 +28,13 @@ public class SDataServlet extends HttpServlet {
         List<House> houses = new ArrayList<>();
 
     
-        String url = "jdbc:mysql://localhost:3306/projectx";
+        String url = "jdbc:mysql://localhost:3306/ Newcomer_Navigator";
         String user = "root";
-        String password = "Aexam22@";
+        String password = "Tanmay@2001";
 
         try {
             Connection conn = DriverManager.getConnection(url, user, password);
-            String query = "SELECT * FROM tokyo WHERE college = ? AND staytype = ?";
+            String query = "SELECT * FROM  accommodationdetails WHERE college = ? AND staytype = ?";
             PreparedStatement pstmt = conn.prepareStatement(query);
             pstmt.setString(1, selectOption);
             pstmt.setString(2, radioOption);

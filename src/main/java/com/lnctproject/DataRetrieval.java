@@ -18,7 +18,7 @@ public class DataRetrieval {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/projectx", "root", "Aexam22@");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/newcomer_navigator", "root", "Tanmay@2001");
 
             String sql = "SELECT * FROM tourism";
             PreparedStatement statement = connection.prepareStatement(sql);

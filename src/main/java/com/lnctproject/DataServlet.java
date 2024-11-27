@@ -28,9 +28,9 @@ public class DataServlet extends HttpServlet {
         List<Restaurant> restaurants = new ArrayList<>();
 
      
-        String url = "jdbc:mysql://localhost:3306/projectx";
+        String url = "jdbc:mysql://localhost:3306/newcomer_navigator";
         String user = "root";
-        String password = "Aexam22@";
+        String password = "Tanmay@2001";
 
         try {
             Connection conn = DriverManager.getConnection(url, user, password);

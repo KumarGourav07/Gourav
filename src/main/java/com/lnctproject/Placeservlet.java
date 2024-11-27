@@ -34,9 +34,9 @@ public class Placeservlet extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
           
-            String dbUrl = "jdbc:mysql://localhost:3306/projectx";
+            String dbUrl = "jdbc:mysql://localhost:3306/newcomer_navigator ";
             String dbUser = "root";
-            String dbPassword = "Aexam22@";
+            String dbPassword = "Tanmay2001";
             conn = DriverManager.getConnection(dbUrl, dbUser, dbPassword);
 
             String query = "SELECT id, placename FROM foodplaces";

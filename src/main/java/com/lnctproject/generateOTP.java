@@ -10,7 +10,7 @@ import java.util.Properties;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import com.trying.OTP;
+//import com.trying.OTP;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;

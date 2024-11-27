@@ -26,7 +26,7 @@
 <body>
  <img class="image" src="images/t01.jpg" alt="Cartoon Image">
     <header>   
-        <a class="brand" id="ko">HI BHOPAL</a>
+        <a class="brand" id="ko">Newcomer Navigator</a>
         <div class="menu-btn"></div>
         <div class="navigation">
             <div class="navigation-items">

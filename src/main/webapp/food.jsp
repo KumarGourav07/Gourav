@@ -12,7 +12,7 @@
 <body >
   <img  class="image" src="images/f16.jpg" alt="cartoon image">
   <header>
-    <a  class="brand" id="ko">HI BHOPAL</a>
+    <a  class="brand" id="ko">Newcomer Navigator</a>
     <div class="menu-btn"></div>
     <div class="navigation">
         <div class="navigation-items">
